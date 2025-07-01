@@ -1,0 +1,34 @@
+{
+  "name": "clickpay/laravel-clickpay",
+  "description": "Laravel package for ClickPay Transaction API",
+  "keywords": ["laravel", "clickpay", "payment"],
+  "authors": [
+    {
+      "name": "Yacoub Al-haidari",
+      "role": "Maintainer",
+      "homepage": "https://github.com/YacoubAl-haidari"
+    }
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ClickPay\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0|^8.1|^8.2|^8.3|^8.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ClickPay\\Providers\\ClickPayServiceProvider"
+      ],
+      "aliases": {
+        "ClickPay": "ClickPay\\Facades\\ClickPay"
+      }
+    }
+  }
+}
