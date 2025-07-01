@@ -1,5 +1,5 @@
 {
-  "name": "clickpay/laravel-clickpay",
+  "name": "yacoubalhaidari/laravel-clickpay",
   "description": "Laravel package for ClickPay Transaction API",
   "keywords": ["laravel", "clickpay", "payment"],
   "authors": [
