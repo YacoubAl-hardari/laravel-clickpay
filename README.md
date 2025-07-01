@@ -82,7 +82,7 @@ return [
 Add to your `.env`:
 
 ```dotenv
-CLICKPAY_PROFILE_ID=46600
+CLICKPAY_PROFILE_ID=00000
 CLICKPAY_SERVER_KEY=your_server_key_here
 CLICKPAY_RETURN_URL=https://yourdomain.com/payment/return
 CLICKPAY_CALLBACK_URL=https://yourdomain.com/payment/callback
