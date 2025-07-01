@@ -45,9 +45,8 @@ A simple, all-in-one Laravel package for integrating with the ClickPay Transacti
 2. **Publish the config** file:
 
    ```bash
-   php artisan vendor:publish \
-     --provider="ClickPay\Providers\ClickPayServiceProvider" \
-     --tag=config
+    php artisan vendor:publish --provider="ClickPay\Providers\ClickPayServiceProvider" --tag=config
+
    ```
 
 3. (Optional) **Add the Facade** in `config/app.php`:
