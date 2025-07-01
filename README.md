@@ -39,7 +39,7 @@ A simple, all-in-one Laravel package for integrating with the ClickPay Transacti
 1. **Require the package** via Composer:
 
    ```bash
-   composer require clickpay/laravel-clickpay
+   composer require yacoubalhaidari/laravel-clickpay
    ```
 
 2. **Publish the config** file:
